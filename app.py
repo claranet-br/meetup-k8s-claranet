@@ -10,4 +10,4 @@ app.config["DEBUG"] = True
 def home():
      return "Meetup k8s - Claranet V2"
 
-app.run(debug=True,host='0.0.0.0', port=81)
+app.run(debug=True,host='0.0.0.0', port=80)
