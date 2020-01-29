@@ -8,6 +8,6 @@ app.config["DEBUG"] = True
 
 @app.route('/api/v1/k8s', methods=['GET'])
 def home():
-     return "Meetup k8s - Claranet V2"
+     return "Meetup k8s - Claranet V3"
 
 app.run(debug=True,host='0.0.0.0', port=80)
